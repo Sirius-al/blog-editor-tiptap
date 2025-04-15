@@ -1,7 +1,7 @@
 {
   "name": "tiptap-react-editor",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fully-featured Tiptap-based React editor component",
   "main": "dist/tiptap-react-editor.cjs.js",
   "module": "dist/tiptap-react-editor.es.js",
