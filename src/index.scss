@@ -8,22 +8,66 @@
   padding: 1rem;
 }
 
-button {
-  border: 1px solid black;
+.editor-main {
+  border: 1px solid rgba(214, 211, 209, 1);
+  padding-top: 12px;
+  border-radius: 8px;
+}
+
+button, select {
+  border: 1px solid transparent;
   border-radius: 0.25rem;
   padding: 0.25rem 0.5rem;
   background: none;
   margin-right: .5rem;
   margin-bottom: 1rem;
   cursor: pointer;
-  font-size: 0.8rem;
+  font-size: 16px;
   font-weight: 600;
+  color: rgba(120, 113, 108, 1);
+}
+
+select:focus {
+  outline: none;
+}
+
+.all-selectors {
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .bg-gray {
-  background-color: gray;
-  color: azure;
-  border-color: #3259a5;
+  background-color: rgb(235 235 235);
+  // color: azure;
+  // border-color: #3259a5;
+}
+
+.bg-blue {
+  background-color: #2a5ec5;
+  color: white;
+  border-color: #2a5ec5;
+}
+
+.selected-align {
+  background-color: #2a5ec5;
+  color: white;
+  border-color: #2a5ec5;
+}
+
+.listBoxOptions-1 {
+  background-color: white;
+  border-color: black;
+  display: grid;
+  place-items: center;
+
+  li {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
 }
 
 .ProseMirror:focus {
